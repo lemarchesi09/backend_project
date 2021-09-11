@@ -45,7 +45,7 @@
                 <td>{{ $about->name }}</td>
                 <td>{{ $about->email }}</td>
                 <td>{{ $about->phone }}</td>
-                <td>
+                <td class="d-flex">
                   <a href="{{ route ("about.edit", $about->id)}}" class = "btn btn-sm btn-primary">Edit</a>
                   <form action="{{ route("about.destroy", $about->id)}}" method = "post">
                     

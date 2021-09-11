@@ -12,4 +12,7 @@ class DashboardController extends Controller
         $title ["title"] = "prueba";
         return view("home.home",$title);
     }
+    
 }
+
+
