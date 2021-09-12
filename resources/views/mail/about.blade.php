@@ -6,7 +6,7 @@
     <title>Mensaje Recibido con exíto</title>
 </head>
 <body>
-    <p>Hola! {{ $about_mail->name }}</p>
-    <p>mensaje recibido: {{ $about_mail->message }}</p>
+    <p>Hola! {{ $about_mail ["name"] }}</p>
+    <p>mensaje recibido: {{ $about_mail ["message"] }}</p>
 </body>
 </html>

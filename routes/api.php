@@ -18,3 +18,7 @@ use Illuminate\Support\Facades\Route;
     return $request->user();
 });
 */
+
+Route::prefix('about')->group(function () {
+    Route::post('save', "AboutController@saveApi")->name("about.api_save");    
+});
